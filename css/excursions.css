@@ -1,0 +1,162 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+  color: #fff;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: inherit;
+}
+
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header {
+  background-image: url(../images/excursions_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 26px;
+}
+
+.menu__list {
+  display: flex;
+}
+
+.menu__item {
+  margin-right: 20px;
+}
+
+.menu__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  transition: color 0.5s;
+}
+
+.menu__link:hover {
+  color: #FFC700;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 88px;
+  max-width: 760px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+
+.footer {
+  background-color: #EDEDED;
+  padding: 30px 0 30px;
+}
+
+.footer__inner {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.footer__logo {
+  width: 80px;
+  height: 114px;
+  margin-right: 110px;
+}
+
+.footer__menu {
+  list-style: none;
+  width: 155px;
+  margin-top: 20px;
+  margin-right: 280px;
+}
+
+.footer__contacts {
+  list-style: none;
+  width: 210px;
+  margin-top: 20px;
+  margin-right: 110px;
+}
+
+.footer__mail {
+  list-style: none;
+  margin-top: 20px;
+  width: 175px;
+}
+
+.footer__menu_item,
+.footer__contacts_item,
+.footer__mail_item {
+  margin-bottom: 8px;
+  color: #282828;
+  font-family: 'Open Sans';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+ 
+.footer__menu_link,
+.footer__contacts_link,
+.footer__mail_link {
+  margin-left: 9px;
+  transition: color 0.5s;
+}
+
+.footer__menu_link:hover,
+.footer__contacts_link:hover,
+.footer__mail_link:hover {
+  color: #FFC700;
+}
+
+.footer__social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.footer__social_img {
+  padding-right: 6px;
+}
