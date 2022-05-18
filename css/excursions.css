@@ -14,7 +14,7 @@ body {
   font-size: 14px;
   line-height: 17px;
   font-weight: 500;
-  color: #fff;
+  color: #fff;  
 }
 
 button {
@@ -87,6 +87,33 @@ button {
   margin-bottom: 60px;
 }
 
+.filter__inner {
+  margin-top: 60px;
+  background: #fff;
+}
+
+.filter__list {
+  display: flex;
+  justify-content: center;
+}
+
+.filter__item {
+  margin-right: 20px;
+}
+
+.filter__link {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #282828;
+  transition: color 0.5s;
+}
+
+.filter__link:hover {
+  color: #0499DD;
+}
 
 .footer {
   background-color: #EDEDED;
@@ -95,7 +122,6 @@ button {
 
 .footer__inner {
   display: flex;
-  /* justify-content: space-between; */
 }
 .footer__logo {
   width: 80px;
